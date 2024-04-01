@@ -9,7 +9,7 @@ export function mrAdminRoute(app) {
 
     res.type('html');
     res.send(`
-    <div>You are now connected to GitHub!</div>
+    <div>You are now connected to Bellini!</div>
     <script>window.opener.postMessage('${code}', '*')</script>`);
   });
 }
